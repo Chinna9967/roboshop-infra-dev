@@ -5,6 +5,6 @@ cd /tmp
 # git clone https://github.com/Chinna9967/roboshop-shell-tf-master.git
 # cd roboshop-shell-tf-master
 # sh mongodb.sh
-ansible-pull -U https://github.com/Chinna9967/ansible-roboshop-roles-tf.git -e component=mongodb main.yaml
+ansible-pull -U https://github.com/Chinna9967/ansible-roboshop-roles-master-tf.git -e component=mongodb main.yaml
 
 # now we are using ansible
