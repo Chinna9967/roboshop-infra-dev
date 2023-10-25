@@ -20,3 +20,8 @@ resource "aws_iam_role" "catalogue" {
 
   tags = var.common_tags
 }
+
+resource "aws_iam_instance_profile" "catalogue_profile" {
+  name = "catalogue_profile"
+  role = aws_iam_role.catalogue.name
+}
