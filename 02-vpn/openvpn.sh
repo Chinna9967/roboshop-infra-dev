@@ -1,6 +1,6 @@
 #!/bin/bash
 export AUTO_INSTALL=y
-export ENDPOINT=$(curl http://3.92.127.165/latest/meta-data/public-ipv4)
+export ENDPOINT=$(curl http://52.201.241.192/latest/meta-data/public-ipv4)
 export APPROVE_INSTALL=y
 export APPROVE_IP=y
 export IPV6_SUPPORT=n
